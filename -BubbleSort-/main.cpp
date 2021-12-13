@@ -23,7 +23,7 @@ void BubbleSort(int input[], int size)
 	{
 		for (int k = 0; k < size - phase - 1; ++k)
 		{
-			if (input[k] > input[k + 1])
+			if (input[k] > input[k + 1])	// 내림차순 정렬	input[k] < input[k+1]
 			{
 				Swap(input[k], input[k + 1]);
 			}
